@@ -11,7 +11,6 @@ const RecentTransactions = ({
 	appwriteItemId,
 	page = 1,
 }: RecentTransactionsProps) => {
-	// console.log(transactions);
 	const rowsPerPage = 10;
 	const totalPages = Math.ceil(transactions.length / rowsPerPage);
 

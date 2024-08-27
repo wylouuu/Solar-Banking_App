@@ -32,8 +32,6 @@ const TransactionHistory = async ({
 		indexOfLastTransaction
 	);
 
-	// console.log(accountsData);
-
 	return (
 		<section className='transactions'>
 			<div className='transactions-header'>

@@ -8,7 +8,6 @@ const MyBanks = async () => {
 	const accounts = await getAccounts({
 		userId: loggedIn.$id,
 	});
-	// console.log(accounts);
 	return (
 		<section className='flex'>
 			<div className='my-banks'>
